@@ -3,7 +3,8 @@ import { ScrollView } from "react-native";
 import { services } from "@/services";
 
 import { styles } from "./styles";
-import { Ingredient, IngredientsProps } from "@/components/Ingredient";
+import { IngredientsProps } from "@/components/Ingredient";
+import Ingredient from "@/components/Ingredient"
 
 type Props = {
   ingredients: IngredientsProps[];
